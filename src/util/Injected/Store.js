@@ -120,7 +120,7 @@ exports.ExposeStore = () => {
         setPushname: window.require('WAWebSetPushnameConnAction').setPushname
     };
     window.Store.NumberInfo = {
-        ...window.require('WAPhoneUtils'),
+        ...window.require('WAWebPhoneUtils'),
         ...window.require('WAPhoneFindCC')
     };
     window.Store.ForwardUtils = {
